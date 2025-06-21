@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechConsult Pro - Professional IT Consulting Services</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNavbar">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#home">
+                <i class="fas fa-desktop me-2 fs-4"></i>
+                <span class="fw-bold fs-5">TechConsult Pro</span>
+            </a>
+            
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto me-4">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                <button class="btn btn-primary px-4 py-2 fw-semibold">Get Quote</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Carousel -->
+    <section id="home">
+        <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"></button>
+            </div>
+            
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="carousel-bg" style="background-image: url('https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop')"></div>
+                    <div class="carousel-overlay"></div>
+                    <div class="container">
+                        <div class="carousel-content">
+                            <h1 class="display-3 fw-bold mb-4">Transform Your Business with Expert IT Solutions</h1>
+                            <p class="lead mb-4 text-primary-light">Hardware • Software • Infrastructure</p>
+                            <p class="fs-5 mb-5 max-width-600">We provide comprehensive IT consulting services to help your business thrive in the digital age.</p>
+                            <button class="btn btn-primary btn-lg px-5 py-3 fw-semibold">Get Started Today</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="carousel-item">
+                    <div class="carousel-bg" style="background-image: url('https://images.pexels.com/photos/325229/pexels-photo-325229.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop')"></div>
+                    <div class="carousel-overlay"></div>
+                    <div class="container">
+                        <div class="carousel-content">
+                            <h1 class="display-3 fw-bold mb-4">Cutting-Edge Infrastructure Solutions</h1>
+                            <p class="lead mb-4 text-primary-light">Scalable • Secure • Reliable</p>
+                            <p class="fs-5 mb-5 max-width-600">Build robust IT infrastructure that grows with your business and keeps your data secure.</p>
+                            <button class="btn btn-primary btn-lg px-5 py-3 fw-semibold">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="carousel-item">
+                    <div class="carousel-bg" style="background-image: url('https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop')"></div>
+                    <div class="carousel-overlay"></div>
+                    <div class="container">
+                        <div class="carousel-content">
+                            <h1 class="display-3 fw-bold mb-4">Software Solutions That Drive Results</h1>
+                            <p class="lead mb-4 text-primary-light">Custom • Innovative • Efficient</p>
+                            <p class="fs-5 mb-5 max-width-600">From custom development to system integration, we deliver software solutions that power your success.</p>
+                            <button class="btn btn-primary btn-lg px-5 py-3 fw-semibold">Explore Solutions</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-5 bg-light">
+        <div class="container py-5">
+            <div class="text-center mb-5">
+                <h2 class="display-4 fw-bold text-dark mb-4">Our Expert Services</h2>
+                <p class="lead text-muted max-width-800 mx-auto">Comprehensive IT consulting services designed to transform your business operations and drive growth through technology excellence.</p>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card h-100">
+                        <div class="service-icon">
+                            <i class="fas fa-server"></i>
+                        </div>
+                        <h3 class="h4 fw-bold mb-3">Infrastructure Consulting</h3>
+                        <p class="text-muted mb-4">Design and implement robust IT infrastructure solutions that scale with your business needs and ensure optimal performance.</p>
+                        <ul class="service-features">
+                            <li>Network Design</li>
+                            <li>Server Architecture</li>
+                            <li>Cloud Migration</li>
+                            <li>Performance Optimization</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card h-100">
+                        <div class="service-icon">
+                            <i class="fas fa-microchip"></i>
+                        </div>
+                        <h3 class="h4 fw-bold mb-3">Hardware Solutions</h3>
+                        <p class="text-muted mb-4">Expert hardware consultation and implementation services to keep your systems running at peak performance.</p>
+                        <ul class="service-features">
+                            <li>Hardware Assessment</li>
+                            <li>Procurement</li>
+                            <li>Installation</li>
+                            <li>Maintenance</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card h-100">
+                        <div class="service-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3 class="h4 fw-bold mb-3">Software Development</h3>
+                        <p class="text-muted mb-4">Custom software solutions tailored to your specific business requirements and operational workflows.</p>
+                        <ul class="service-features">
+                            <li>Custom Applications</li>
+                            <li>System Integration</li>
+                            <li>API Development</li>
+                            <li>Legacy Modernization</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card h-100">
+                        <div class="service-icon">
+                            <i class="fas fa-cloud"></i>
+                        </div>
+                        <h3 class="h4 fw-bold mb-3">Cloud Services</h3>
+                        <p class="text-muted mb-4">Comprehensive cloud strategy and implementation services to maximize efficiency and reduce costs.</p>
+                        <ul class="service-features">
+                            <li>Cloud Strategy</li>
+                            <li>Migration Services</li>
+                            <li>Multi-Cloud</li>
+                            <li>Optimization</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card h-100">
+                        <div class="service-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3 class="h4 fw-bold mb-3">Cybersecurity</h3>
+                        <p class="text-muted mb-4">Protect your business with comprehensive security solutions and proactive threat management.</p>
+                        <ul class="service-features">
+                            <li>Security Audits</li>
+                            <li>Threat Detection</li>
+                            <li>Compliance</li>
+                            <li>Incident Response</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card h-100">
+                        <div class="service-icon">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                        <h3 class="h4 fw-bold mb-3">Digital Transformation</h3>
+                        <p class="text-muted mb-4">Guide your organization through digital transformation with strategic technology adoption.</p>
+                        <ul class="service-features">
+                            <li>Strategy Planning</li>
+                            <li>Process Automation</li>
+                            <li>Change Management</li>
+                            <li>Technology Adoption</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container py-5">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-6">
+                    <h2 class="display-4 fw-bold text-dark mb-4">Why Choose TechConsult Pro?</h2>
+                    <p class="lead text-muted mb-4">With over 15 years of experience in the IT industry, we've helped hundreds of businesses transform their operations through strategic technology solutions.</p>
+                    
+                    <div class="about-features">
+                        <div class="about-feature">
+                            <div class="about-feature-icon">
+                                <div class="feature-dot"></div>
+                            </div>
+                            <div class="about-feature-content">
+                                <h4 class="h5 fw-bold mb-2">Expert Team</h4>
+                                <p class="text-muted">Our certified professionals bring deep expertise across all major technology platforms and industries.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="about-feature">
+                            <div class="about-feature-icon">
+                                <div class="feature-dot"></div>
+                            </div>
+                            <div class="about-feature-content">
+                                <h4 class="h5 fw-bold mb-2">Proven Results</h4>
+                                <p class="text-muted">We deliver measurable results that drive business growth and operational efficiency.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="about-feature">
+                            <div class="about-feature-icon">
+                                <div class="feature-dot"></div>
+                            </div>
+                            <div class="about-feature-content">
+                                <h4 class="h5 fw-bold mb-2">24/7 Support</h4>
+                                <p class="text-muted">Round-the-clock support ensures your systems are always running smoothly.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6">
+                    <div class="about-image-container">
+                        <img src="https://images.pexels.com/photos/3184295/pexels-photo-3184295.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Team working on technology solutions" class="img-fluid rounded-4 shadow-lg">
+                        <div class="about-badge">
+                            <h3 class="h2 fw-bold mb-2">15+ Years</h3>
+                            <p class="mb-0 text-primary-light">of Excellence</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Stats -->
+            <div class="row g-4 mt-5">
+                <div class="col-6 col-md-3">
+                    <div class="stat-item text-center">
+                        <div class="stat-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h3 class="display-5 fw-bold text-dark mb-2">500+</h3>
+                        <p class="text-muted">Satisfied Clients</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="stat-item text-center">
+                        <div class="stat-icon">
+                            <i class="fas fa-award"></i>
+                        </div>
+                        <h3 class="display-5 fw-bold text-dark mb-2">15+</h3>
+                        <p class="text-muted">Years Experience</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="stat-item text-center">
+                        <div class="stat-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <h3 class="display-5 fw-bold text-dark mb-2">24/7</h3>
+                        <p class="text-muted">Support Available</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="stat-item text-center">
+                        <div class="stat-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <h3 class="display-5 fw-bold text-dark mb-2">50+</h3>
+                        <p class="text-muted">Countries Served</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-dark text-white">
+        <div class="container py-5">
+            <div class="text-center mb-5">
+                <h2 class="display-4 fw-bold mb-4">Get In Touch</h2>
+                <p class="lead text-light max-width-800 mx-auto">Ready to transform your business with expert IT solutions? Let's discuss your project and how we can help you achieve your goals.</p>
+            </div>
+            
+            <div class="row g-5">
+                <div class="col-lg-6">
+                    <h3 class="h3 fw-bold mb-4">Contact Information</h3>
+                    
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-content">
+                                <h4 class="h5 fw-semibold">Phone</h4>
+                                <p class="text-light">+1 (555) 123-4567</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-content">
+                                <h4 class="h5 fw-semibold">Email</h4>
+                                <p class="text-light">info@techconsultpro.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-content">
+                                <h4 class="h5 fw-semibold">Address</h4>
+                                <p class="text-light">123 Tech Street, Digital City, DC 12345</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="mt-5">
+                        <h4 class="h5 fw-semibold mb-3">Business Hours</h4>
+                        <div class="business-hours">
+                            <p class="text-light">Monday - Friday: 9:00 AM - 6:00 PM</p>
+                            <p class="text-light">Saturday: 10:00 AM - 4:00 PM</p>
+                            <p class="text-light">Sunday: Closed</p>
+                            <p class="text-primary fw-semibold">24/7 Emergency Support Available</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6">
+                    <form class="contact-form">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <label for="name" class="form-label">Full Name *</label>
+                                <input type="text" class="form-control form-control-lg" id="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="email" class="form-label">Email Address *</label>
+                                <input type="email" class="form-control form-control-lg" id="email" placeholder="your@email.com" required>
+                            </div>
+                        </div>
+                        
+                        <div class="mb-3">
+                            <label for="company" class="form-label">Company Name</label>
+                            <input type="text" class="form-control form-control-lg" id="company" placeholder="Your Company">
+                        </div>
+                        
+                        <div class="mb-4">
+                            <label for="message" class="form-label">Message *</label>
+                            <textarea class="form-control form-control-lg" id="message" rows="6" placeholder="Tell us about your project..." required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-lg w-100 fw-semibold">
+                            <i class="fas fa-paper-plane me-2"></i>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-secondary text-white py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6">
+                    <div class="d-flex align-items-center mb-3">
+                        <i class="fas fa-desktop me-2 fs-4 text-primary"></i>
+                        <span class="h5 fw-bold mb-0">TechConsult Pro</span>
+                    </div>
+                    <p class="text-light mb-4">Leading IT consulting firm specializing in hardware, software, and infrastructure solutions for businesses worldwide.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="fw-bold mb-3">Quick Links</h5>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="fw-bold mb-3">Services</h5>
+                    <ul class="footer-links">
+                        <li><a href="#">Infrastructure Consulting</a></li>
+                        <li><a href="#">Hardware Solutions</a></li>
+                        <li><a href="#">Software Development</a></li>
+                        <li><a href="#">Cloud Services</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="fw-bold mb-3">Contact Info</h5>
+                    <div class="footer-contact">
+                        <p><i class="fas fa-phone text-primary me-2"></i> +1 (555) 123-4567</p>
+                        <p><i class="fas fa-envelope text-primary me-2"></i> info@techconsultpro.com</p>
+                        <p><i class="fas fa-map-marker-alt text-primary me-2"></i> 123 Tech Street, Digital City</p>
+                    </div>
+                </div>
+            </div>
+            
+            <hr class="my-4 border-secondary">
+            <div class="text-center">
+                <p class="mb-0 text-light">© 2024 TechConsult Pro. All rights reserved. | Privacy Policy | Terms of Service</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
